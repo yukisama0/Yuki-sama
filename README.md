@@ -33,7 +33,7 @@ For more details, visit: [Creative Commons License](https://creativecommons.org/
 To run Yuki with the 700B model of LLaMA, you will need the following:
 
 #### Hardware Requirements:
-- **GPU**: At least one high-performance GPU with substantial VRAM (e.g., Nvidia A100, V100, or similar). Recommended 40GB or more VRAM for optimal performance.
+- **GPU**: At least one high-performance GPU with substantial VRAM (e.g., Nvidia A100, V100, or similar). Minimum 40GB required. And more VRAM for optimal performance.
 - **CPU**: High-performance multi-core processor (e.g., AMD Ryzen 9 5950X, Intel Core i9-12900K or higher).
 - **RAM**: Minimum 128GB of system memory. For large models, 256GB or more is recommended.
 - **Storage**: SSD with at least 1TB of free space. NVMe SSD is recommended for faster data throughput.
