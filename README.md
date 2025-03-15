@@ -1,1 +1,1 @@
-This is Yuki a OpenSource chatbot
+This is Yuki a chatbot
