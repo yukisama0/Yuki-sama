@@ -28,5 +28,18 @@ For more details, visit: [Creative Commons License](https://creativecommons.org/
 
 1. Join our server: https://discord.gg/wRbf5FFSgc
 
-## Requirements
-1. A PC from NASA or at least the Nvidia A100.
+### Requirements
+
+To run Yuki with the 700B model of LLaMA, you will need the following:
+
+#### Hardware Requirements:
+- **GPU**: At least one high-performance GPU with substantial VRAM (e.g., Nvidia A100, V100, or similar). Recommended 40GB or more VRAM for optimal performance.
+- **CPU**: High-performance multi-core processor (e.g., AMD Ryzen 9 5950X, Intel Core i9-12900K or higher).
+- **RAM**: Minimum 128GB of system memory. For large models, 256GB or more is recommended.
+- **Storage**: SSD with at least 1TB of free space. NVMe SSD is recommended for faster data throughput.
+
+#### Software Requirements:
+- **Operating System**: Linux-based operating system (Ubuntu or CentOS recommended). Alternatively, Windows with WSL 2.
+- **CUDA**: CUDA 11.4 or higher with cuDNN support. Ensure your GPU drivers are up-to-date.
+- **Python**: Python 3.9 or later (Python 3.10+ recommended).
+- **Dependencies**: Use the `requirements.txt` file for the necessary Python dependencies.
