@@ -1,6 +1,7 @@
 import whisper
 import pyaudio
 import numpy as np
+import time
 
 model = whisper.load_model("medium")
 
@@ -52,7 +53,7 @@ def transcribe_audio():
     audio_array = np.frombuffer(audio_data, dtype=np.int16)
     audio_array = audio_array.astype(np.float32) / 32768.0
 
-    result = model.transcribe(audio_array, language="de")
+    result = model.transcribe(audio_array, language="en")
 
     if result["text"] != last_transcription:
         last_transcription = result["text"]
