@@ -1,0 +1,81 @@
+{
+	"powermode.enabled": true,
+	"workbench.settings.applyToAllProfiles": [
+
+
+
+		
+
+		"powermode.enabled",
+		"powermode.presets",
+		"powermode.shake.enabled"
+	],
+	"powermode.presets": "flames",
+	"explorer.confirmDelete": false,
+	"powermode.shake.enabled": false,
+	"workbench.startupEditor": "none",
+	"explorer.confirmDragAndDrop": false,
+	"workbench.iconTheme": "material-icon-theme",
+	"[javascript]": {
+		"editor.defaultFormatter": "esbenp.prettier-vscode"
+	},
+	"[html]": {
+		"editor.defaultFormatter": "esbenp.prettier-vscode"
+	},
+	"settingsSync.ignoredSettings": [
+		"powermode.combo.counterEnabled",
+		"powermode.combo.location"
+],
+	"[css]": {
+		"editor.defaultFormatter": "vscode.css-language-features"
+	},
+	"editor.defaultFormatter": "esbenp.prettier-vscode",
+	"prettier.useTabs": true,
+	"[lua]": {
+		"editor.defaultFormatter": "sumneko.lua"
+	},
+	"terminal.integrated.commandsToSkipShell": [
+		"\"terminal.integrated.shellArgs.windows\": [\"-ExecutionPolicy\", \"Bypass\"]"
+	],
+	"security.workspace.trust.untrustedFiles": "open",
+	"editor.stickyScroll.enabled": false,
+	"powermode.combo.location": "statusbar",
+	"explorer.fileNesting.patterns": {
+		"*.ts": "${capture}.js",
+		"*.js": "${capture}.js.map, ${capture}.min.js, ${capture}.d.ts",
+		"*.jsx": "${capture}.js",
+		"*.tsx": "${capture}.ts",
+		"tsconfig.json": "tsconfig.*.json",
+		"package.json": "package-lock.json, yarn.lock, pnpm-lock.yaml, bun.lockb",
+		"*.sqlite": "${capture}.${extname}-*",
+		"*.db": "${capture}.${extname}-*",
+		"*.sqlite3": "${capture}.${extname}-*",
+		"*.db3": "${capture}.${extname}-*",
+		"*.sdb": "${capture}.${extname}-*",
+		"*.s3db": "${capture}.${extname}-*"
+	},
+	"cSpell.userWords": [
+		"Shinigami",
+		"Tsukuyomi",
+		"Ebisu",
+		"DasHund007",
+		"RattenPriester",
+		"Yuki",
+		"Kagutsuchi",
+		"Susanoo"
+	],
+	"liveServer.settings.donotShowInfoMsg": true,
+	"liveServer.settings.donotVerifyTags": true,
+	"editor.minimap.enabled": false,
+	"hexeditor.showDecodedText": false,
+	"powermode.explosions.enabled": false,
+	"workbench.editorAssociations": {
+		"*.db": "default"
+	},
+	"remote.SSH.remotePlatform": {
+		"100.84.68.17": "linux"
+	},
+	"synthwave84.brightness": 1,
+	"workbench.colorTheme": "Electron vue darker",
+	"python.createEnvironment.trigger": "off"
+}

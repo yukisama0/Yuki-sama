@@ -1,0 +1,27 @@
+{
+    "recommendations": [
+      "astro-build.astro-vscode",
+      "bradlc.vscode-tailwindcss",
+      "christian-kohler.path-intellisense",
+      "dbaeumer.vscode-eslint",
+      "ecmel.vscode-html-css",
+      "esbenp.prettier-vscode",
+      "hoovercj.vscode-power-mode",
+      "icao.electron-vue",
+      "icrawl.discord-vscode",
+      "madtiago.file-badge",
+      "ms-azuretools.vscode-docker",
+      "ms-python.debugpy",
+      "ms-python.python",
+      "ms-python.vscode-pylance",
+      "ms-vscode.powershell",
+      "ms-vsliveshare.vsliveshare",
+      "n3rds-inc.time",
+      "pkief.material-icon-theme",
+      "ritwickdey.liveserver",
+      "shd101wyy.markdown-preview-enhanced",
+      "streetsidesoftware.code-spell-checker",
+      "tyriar.lorem-ipsum"
+    ]
+  }
+  
