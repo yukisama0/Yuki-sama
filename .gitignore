@@ -4,6 +4,7 @@ npm-debug.log*
 .DS_Store
 Thumbs.db
 .env
+/STT/output.wav
 /dist/
 /build/
 /.vscode/
