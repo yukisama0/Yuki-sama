@@ -1,6 +1,6 @@
 whisper
 pyaudio
 numpy
-pytorch
+torch
 torchvision
 torchaudio
