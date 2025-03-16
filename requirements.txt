@@ -8,3 +8,4 @@ opencv-python
 mss
 pyautogui
 pywin32
+webrtcvad
