@@ -1,3 +1,7 @@
 whisper
 pyaudio
 numpy
+torch
+torchvision
+torchaudio
+transformers

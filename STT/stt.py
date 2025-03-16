@@ -19,6 +19,7 @@ stream = p.open(format=FORMAT,
                 frames_per_buffer=CHUNK)
 
 print("Listening... Press Ctrl+C to stop.")
+print("")
 
 last_transcription = ""
 
@@ -53,7 +54,7 @@ def transcribe_audio():
     audio_array = np.frombuffer(audio_data, dtype=np.int16)
     audio_array = audio_array.astype(np.float32) / 32768.0
 
-    result = model.transcribe(audio_array, language="en")
+    result = model.transcribe(audio_array, language="de")
 
     if result["text"] != last_transcription:
         last_transcription = result["text"]

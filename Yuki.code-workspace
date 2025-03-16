@@ -1,0 +1,26 @@
+{
+	"folders": [
+		{
+			"path": "."
+		}
+	],
+	"settings": {
+		"powermode.enabled": true,
+		"powermode.presets": "flames",
+		"explorer.confirmDelete": false,
+		"powermode.shake.enabled": false,
+		"explorer.confirmDragAndDrop": false,
+		"workbench.iconTheme": "material-icon-theme",
+		"terminal.integrated.commandsToSkipShell": [
+			"\"terminal.integrated.shellArgs.windows\": [\"-ExecutionPolicy\", \"Bypass\"]"
+		],
+		"powermode.combo.location": "statusbar",
+		"liveServer.settings.donotShowInfoMsg": true,
+		"liveServer.settings.donotVerifyTags": true,
+		"powermode.explosions.enabled": false,
+		"workbench.editorAssociations": {
+			"*.db": "default"
+		},
+		"workbench.colorTheme": "Electron vue darker"
+	}
+}
