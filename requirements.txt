@@ -4,7 +4,7 @@ numpy
 torch
 torchvision
 torchaudio
-<<<<<<< HEAD
-transformers
-=======
->>>>>>> ebe93dee2974d9b89b1067890840e169cff145ae
+opencv-python
+mss
+pyautogui
+pywin32
