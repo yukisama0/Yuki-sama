@@ -4,7 +4,7 @@ import numpy as np
 import webrtcvad
 import noisereduce as nr
 
-model = whisper.load_model("medium")
+model = whisper.load_model("medium.en")
 
 CHUNK = 320  # 10ms bei 16kHz -> 160 Samples pro Frame
 FORMAT = pyaudio.paInt16
@@ -52,7 +52,7 @@ try:
         audio_array = np.frombuffer(audio_data, dtype=np.int16)
         reduced_noise = nr.reduce_noise(y=audio_array, sr=RATE)
         audio_array = reduced_noise.astype(np.float32) / 32768.0
-        result = model.transcribe(audio_array, language="de", temperature=0)
+        result = model.transcribe(audio_array, language="en")
 
         if result["text"] != last_transcription:
             last_transcription = result["text"]
