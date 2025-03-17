@@ -6,7 +6,7 @@ import noisereduce as nr
 
 model = whisper.load_model("medium.en")
 
-CHUNK = 320  # 10ms bei 16kHz -> 160 Samples pro Frame
+CHUNK = 320
 FORMAT = pyaudio.paInt16
 CHANNELS = 1
 RATE = 16000
@@ -24,9 +24,7 @@ print("")
 last_transcription = ""
 
 def is_speech(data):
-    # Convert byte data to numpy array for VAD
     audio_array = np.frombuffer(data, dtype=np.int16)
-    # Check that the frame is 10ms (160 samples at 16kHz)
     if len(audio_array) != CHUNK:
         return False
     return vad.is_speech(audio_array.tobytes(), RATE)

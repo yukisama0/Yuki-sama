@@ -52,7 +52,7 @@ const Guild = sequelize.define('Guild', {
         defaultValue: null,
     },
 }, {
-    tableName: 'inari_bot',
+    tableName: 'discord_bot',
     timestamps: false,
 });
 

@@ -1,7 +1,7 @@
 import transformers
 import torch
 
-model_id = "meta-llama/Llama-3.2-3B"
+model_id = "meta-llama/Llama-3.2-1B"
 
 pipeline = transformers.pipeline(
     "text-generation",
