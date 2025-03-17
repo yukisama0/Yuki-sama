@@ -21,6 +21,15 @@
 		"workbench.editorAssociations": {
 			"*.db": "default"
 		},
-		"workbench.colorTheme": "Electron vue darker"
+		"workbench.colorTheme": "Electron vue darker",
+		"files.exclude": {
+			"**/.git": true,
+			"**/.svn": true,
+			"**/.hg": true,
+			"**/.DS_Store": true,
+			"**/Thumbs.db": true,
+			"**/.github": true,
+			"**/node_modules": true
+		}
 	}
 }
