@@ -29,7 +29,9 @@
 			"**/.DS_Store": true,
 			"**/Thumbs.db": true,
 			"**/.github": true,
-			"**/node_modules": true
+			"**/node_modules": true,
+			"**/package.json": true,
+			"**/package-lock.json": true
 		}
 	}
 }

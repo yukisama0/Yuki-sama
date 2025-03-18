@@ -6,7 +6,7 @@ const path = require('path');
 const { REST } = require('@discordjs/rest');
 const { Routes } = require('discord.js');
 const chalk = require('chalk');
-dotenv.config();
+dotenv.config({ path: './discord-bot/.env' });
 
 const { clientId } = require('./config.json');
 const client = new Client({

@@ -1,6 +1,6 @@
 const dotenv = require('dotenv');
 const { Sequelize } = require('sequelize');
-dotenv.config();
+dotenv.config({ path: './discord-bot/.env' });
 
 const sequelize = new Sequelize(process.env.MYSQL_URL, {
     host: '192.168.1.209',

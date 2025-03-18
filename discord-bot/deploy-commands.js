@@ -3,7 +3,7 @@ const path = require('node:path');
 const { REST } = require('@discordjs/rest');
 const { Routes } = require('discord.js');
 const dotenv = require('dotenv');
-dotenv.config();
+dotenv.config({ path: './discord-bot/.env' });
 
 const { clientId } = require('./config.json');
 const token = process.env.TOKEN;
@@ -31,7 +31,7 @@ function getFiles(dir) {
 }
 
 let commands = [];
-const commandFiles = getFiles('./commands');
+const commandFiles = getFiles('./discord-bot/commands');
 
 for (const file of commandFiles) {
     const command = require(file);

@@ -1,7 +1,7 @@
 const { SlashCommandBuilder, ChannelType, PermissionsBitField } = require('discord.js');
 const Guild = require('../../models/guild');
 const dotenv = require('dotenv');
-dotenv.config();
+dotenv.config({ path: './discord-bot/.env' });
 
 module.exports = {
     data: new SlashCommandBuilder()

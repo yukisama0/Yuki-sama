@@ -1,0 +1,11 @@
+whisper
+pyaudio
+numpy
+torch
+torchvision
+torchaudio
+opencv-python
+mss
+pyautogui
+pywin32
+webrtcvad
