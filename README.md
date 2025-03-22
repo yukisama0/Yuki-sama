@@ -6,6 +6,7 @@ Yuki is an AI bot currently under development with the goal of integrating a VTu
 
 - [ ] **VTuber Model**: Yuki will have a VTuber avatar, enabling engaging and dynamic interactions with users.
 - [ ] **Game Integration**: Yuki will be able to play games, providing an interactive experience.
+- [x] **Discord Integration**: Yuki will be able to be fully integrated into Discord.
 - [ ] **API Access**: Yuki will be able to access and interact with a range of APIs for different tasks and services.
 - [x] **Speech Recognition**: Yuki will be able to understand voice commands and interact accordingly.
 - [ ] **Machine Learning Integration**: Yuki will continuously improve its responses and performance through machine learning techniques.
