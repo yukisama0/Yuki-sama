@@ -9,3 +9,6 @@ mss
 pyautogui
 pywin32
 webrtcvad
+noisereduce
+ffmpeg-python
+flask
