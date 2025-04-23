@@ -13,10 +13,6 @@ Yuki is an AI bot currently under development with the goal of integrating a VTu
 - [ ] **User Interaction**: Yuki will be able to have casual conversations and interact with users naturally.
 - [ ] **Content Creation**: Yuki will be capable of assisting with content creation for social media and other platforms.
 
-## License
-
-This project is licensed under the **Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International (CC BY-NC-ND 4.0)** license. 
-
 ## Setup and Usage
 
 1. Join our server: https://discord.gg/wRbf5FFSgc
